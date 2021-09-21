@@ -45,3 +45,52 @@
   color: black;
   font-size: 20px
 }
+
+/* MAIN */
+.conteiner {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.content img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.content p {
+    font-size: 50px;
+    width: 50vw;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    color: #ffff00;
+
+}
+
+.red {
+    background-color: red
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+.yellow > .content > p {
+    color:#018000;
+}
